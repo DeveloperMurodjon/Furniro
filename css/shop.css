@@ -1,0 +1,25 @@
+@import "./global.css";
+.hero-shop {
+  background-image: url(../images/shop-bg-image.svg);
+}
+.hero-shop .container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+.hero-main-shop {
+  margin: 0 auto;
+}
+.hero-main-shop h2 {
+  padding-top: 121px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 72px;
+}
+.hero-main-shop p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 24px;
+  padding-bottom: 97px;
+}

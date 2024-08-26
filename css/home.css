@@ -1,1 +1,190 @@
 @import "./global.css";
+
+.hero {
+  background-image: url(../images/hero-bg-image.jpg);
+  padding: 100px 58px 118px 739px;
+}
+
+.hero-main {
+  background-color: #fff3e3;
+  margin: 0;
+  display: inline-block;
+  align-items: start;
+}
+.hero-main :first-child {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 24px;
+  letter-spacing: 3px;
+  color: #333333;
+  padding: 62px 0 4px 41px;
+}
+h1 {
+  padding-right: 43px;
+  padding-bottom: 17px;
+  padding-left: 41px;
+  max-width: 549px;
+  color: #b88e2f;
+  font-weight: 700;
+  font-size: 5.2rem;
+  line-height: 65px;
+}
+.hero-main p {
+  max-width: 546px;
+  padding: 0 0 46px 41px;
+  color: #333333;
+  font-size: 1.8rem;
+  line-height: 24px;
+  font-weight: 500;
+}
+.hero-main a {
+  margin: 0 0 37px 39px;
+  padding: 25px 72px;
+  font-size: 1.6rem;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #b88e2f;
+  color: #ffffff;
+}
+.sec1 {
+  flex-direction: column;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+.sec1 h2 {
+  padding-top: 56px;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 48px;
+  color: #333333;
+}
+.sec1 p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 30px;
+  color: #666666;
+  padding-bottom: 62px;
+}
+.sec1-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.sec1-card .card-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec1-card .card-inside p {
+  color: #333333;
+  padding-top: 30px;
+  padding-bottom: 56px;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 36px;
+}
+.sec2 h3 {
+  padding-bottom: 32px;
+  line-height: 48px;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sec2 button {
+  margin: 32px 0 69px 0;
+  padding: 12px 74px 12px 82px;
+  line-height: 24px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  outline: 1px;
+  border-color: #b88e2f;
+  color: #b88e2f;
+  background-color: transparent;
+}
+.section3 {
+  padding-bottom: 44px;
+  padding-top: 69px;
+  background-color: #fcf8f3;
+}
+.sec3 {
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+}
+.left-side h3 {
+  max-width: 422px;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 48px;
+  color: #3a3a3a;
+  padding-bottom: 7px;
+}
+.left-side p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: #616161;
+}
+.left-side a {
+  margin-top: 25px;
+  padding: 12px 36px;
+  background-color: #b88e2f;
+  font-weight: 600;
+  font-style: 1.6rem;
+  line-height: 24px;
+  color: #ffffff;
+}
+.section4 {
+  padding-top: 67px;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  background-image: url(../images/funiro-furnituro.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* .gallery-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.gallery-container h2 span {
+  color: #333; 
+/* font-weight: bold;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+} */

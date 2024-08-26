@@ -24,5 +24,119 @@ image {
   display: flex;
 }
 body {
-  font-family: "Montserrat";
+  font-family: "Poppins";
+}
+nav {
+  background-color: #efefef;
+}
+.container {
+  max-width: 1236px;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.item-menu {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+.icon-menu {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+button img {
+  outline: none;
+  display: block;
+}
+.item-menu li a {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: black;
+}
+
+footer .container {
+  padding-top: 98px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.title {
+  padding-bottom: 28px;
+  color: #9f9f9f;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+.in-titile li a {
+  padding-bottom: 46px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: #000000;
+}
+.footer-about h3 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 36px;
+  padding-bottom: 50px;
+}
+.footer-about p {
+  max-width: 285px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+.subscribe {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #000000;
+  line-height: 21px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.newsletter {
+  border: none;
+  outline: none;
+  text-decoration: underline;
+}
+::placeholder {
+  color: #9f9f9f;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 21px;
+}
+footer hr {
+  padding: 0 100px;
+  border: none;
+  height: 2px;
+  background-color: #d9d9d9;
+  margin: 0;
+  width: 100%;
+}
+footer .txt {
+  color: #000000;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 1.6rem;
+  padding: 37px 100px;
 }
